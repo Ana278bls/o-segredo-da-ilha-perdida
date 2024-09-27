@@ -1,19 +1,28 @@
-
-body {
-    background-color: #1D4221;
+body{
+    background-color: #002405;
     color: white;
-    font-family: "Bai Jamjuree", sans-serif;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 200%;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 700px;
+    height: 950px;
     margin: 0;
 }
 
 button {
-    background-color: #64A712;
+    background-color: #009414;
     color: white;
-    font-family: "Bai Jamjuree", sans-serif;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 125%;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
 }
 
 main {
@@ -23,4 +32,8 @@ main {
 
 img {
     max-width: 90%;
+}
+
+.fim {
+    font-size: 350%;
 }
